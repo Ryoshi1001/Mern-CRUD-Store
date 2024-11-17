@@ -1,4 +1,3 @@
-//https://www.youtube.com/watch?v=MDZC8VDZnV8 150:10:
 import dotenv from 'dotenv'
 import express from 'express'
 import cors from 'cors'
