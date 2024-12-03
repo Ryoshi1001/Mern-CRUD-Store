@@ -1,4 +1,3 @@
-//https://www.youtube.com/watch?v=MDZC8VDZnV8 150:10:
 import dotenv from 'dotenv'
 import express from 'express'
 import cors from 'cors'
@@ -10,7 +9,7 @@ import productRoutes from './routes/product.route.js'
 
 //create express server
 const app = express()
-app.use(express.json()) // important for url working with methods in postman and to make sure req.body works it is the MiddleWare: allows us to accept json data in the req.body
+app.use(express.json())
 app.use(cors())
 
 //ENV
